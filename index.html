@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@400;500;700&family=Open+Sans:wght@300;400&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fancybox.css">
   <link rel="stylesheet" href="css/style.css">
   <title>O marketing</title>
 </head>
@@ -92,11 +93,11 @@
 
   <!-- expertise -->
   <section class="expertise">
-    <div class="container"> 
+    <div class="container">
       <h2 class="title expertise__title">Our Expertise</h2>
       <div class="expertise__inner">
         <div class="expertise__info">
-          <div class="expertise__info-item">Branding 
+          <div class="expertise__info-item">Branding
             <span style="width: calc(100% - 90%);">90%</span>
           </div>
           <div class="expertise__info-item">Design
@@ -110,7 +111,8 @@
         <div class="expertise__text">
           <p>В стратегию интернет-маркетинга входит создание имиджевой и рекламной концепции, разработка
             контент-стратегии, распределение использования различных каналов коммуникации.</p>
-            <p>Реализуем принятую стратегию, отслеживая промежуточные результаты, и корректируя будущие действия с учетом изменений. Главной целью в этом процессе для нас является конечный результат, а не следование планам.</p>
+          <p>Реализуем принятую стратегию, отслеживая промежуточные результаты, и корректируя будущие действия с учетом
+            изменений. Главной целью в этом процессе для нас является конечный результат, а не следование планам.</p>
         </div>
         <!-- /.expertise__text -->
       </div>
@@ -146,7 +148,7 @@
           <p>Маркетинговое агентство MGN: полный комплекс маркетинговых, рекламных и дизайнерских услуг в Харькове и
             Украине: маркетинговые исследования рынков, товаров, потребителей, планирование комплекса маркетинга,
             реклама, проведение рекламных кампаний, брендинг, рекламный дизайн, pr.
-</p>
+          </p>
           <p>Нами накоплен немалый опыт работы в реальном бизнесе, в самых различных отраслях – от недвижимости до
             аптечного и медицинского бизнеса. Мы не просто беремся решать задачи наших клиентов, мы сами вышли из
             бизнес-среды и понимаем суть бизнес-процессов.</p>
@@ -162,42 +164,51 @@
       <div class="portfolio__top">
         <h2 class="title">Portfolio</h2>
         <div class="portfolio__filter-btn">
-          <button class="portfilio__btn">All</button>
-          <button class="portfilio__btn">Branding</button>
-          <button class="portfilio__btn">Design photography</button>
-          <button class="portfilio__btn">Photography</button>
-          <button class="portfilio__btn">Illustration</button>
+          <button class="portfilio__btn" data-filter="all">All</button>
+          <button class="portfilio__btn" data-filter=".category-a">Branding</button>
+          <button class="portfilio__btn" data-filter=".category-b">Design photography</button>
+          <button class="portfilio__btn" data-filter=".category-c">Photography</button>
+          <button class="portfilio__btn" data-filter=".category-d">Illustration</button>
         </div>
       </div>
       <!-- /.portfolio__top -->
     </div>
     <div class="portfolio__content">
-      <div class="portfolio__item">
-        <img src="images/portfolio/2.jpg" alt="portfolio images">
-      </div>
-      <div class="portfolio__item">
-        <img src="images/portfolio/3.jpg" alt="portfolio images">
-      </div>
-      <div class="portfolio__item">
-        <img src="images/portfolio/4.jpg" alt="portfolio images">
-      </div>
-      <div class="portfolio__item">
+      <div class="portfolio__item mix category-a">
         <img src="images/portfolio/1.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
       </div>
-      <div class="portfolio__item">
+      <div class="portfolio__item mix category-a">
         <img src="images/portfolio/5.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
       </div>
-      <div class="portfolio__item">
+      <div class="portfolio__item mix category-b">
         <img src="images/portfolio/6.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
       </div>
-      <div class="portfolio__item">
-        <img src="images/portfolio/7.jpg" alt="portfolio images">
+      <div class="portfolio__item mix category-c">
+        <img src="images/portfolio/6.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
       </div>
-      <div class="portfolio__item">
-        <img src="images/portfolio/8.jpg" alt="portfolio images">
-      </div>
-      <div class="portfolio__item">
+      <div class="portfolio__item mix category-a">
         <img src="images/portfolio/9.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-b">
+        <img src="images/portfolio/3.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-c">
+        <img src="images/portfolio/7.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-d">
+        <img src="images/portfolio/4.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
+      </div>
+      <div class="portfolio__item mix category-d">
+        <img src="images/portfolio/8.jpg" alt="portfolio images">
+        <a href="#" class="portfolio__item-link">SHOW PROJECT</a>
       </div>
     </div>
     <!-- /.portfolio__content -->
@@ -208,34 +219,39 @@
         Chris Brogan
       </span>
     </blockquote>
-    <div class="portfolio__video">
-      <a class="portfolio__video-link" href="#"></a>
+    <div class="portfolio__video"> 
+      <a data-fancybox class="portfolio__video-link" href="https://www.youtube.com/watch?v=5vNYuffFuqA&ab_channel=PexBell-FreeStockVideoFootage"><img src="images/play.png" alt=""></a>
     </div>
     <!-- /.portfolio__video -->
-    <div class="portfolio__numbers">
-      <h5 class="portfolio__numbers-item">
-        305
-        <span>Web Design</span>
-      </h5>
-      <h5 class="portfolio__numbers-item">
-        220
-        <span>Logo Design</span>
-      </h5>
-      <h5 class="portfolio__numbers-item">
-        52
-        <span>Print Designg</span>
-      </h5>
-      <h5 class="portfolio__numbers-item">
-        88
-        <span>Mobile Apps</span>
-      </h5>
+    <div class="container">
+      <div class="portfolio__numbers">
+        <h5 class="portfolio__numbers-item">
+          305
+          <span>Web Design</span>
+        </h5>
+        <h5 class="portfolio__numbers-item">
+          220
+          <span>Logo Design</span>
+        </h5>
+        <h5 class="portfolio__numbers-item">
+          52
+          <span>Print Designg</span>
+        </h5>
+        <h5 class="portfolio__numbers-item">
+          88
+          <span>Mobile Apps</span>
+        </h5>
+      </div>
+      <!-- /.portfolio__numbers -->
     </div>
-    <!-- /.portfolio__numbers -->
-  </section>  
+  </section>
   <!-- /.portfolio -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/fancybox.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
-
-
-
-
