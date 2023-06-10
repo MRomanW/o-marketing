@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* ==========================================================================  
   Fonst 
 ========================================================================== */
@@ -86,6 +90,14 @@ body {
 
 /* Header Content
    ========================================================================== */
+.header__top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999;
+}
 
 .header__bottom {
   background-image: url("../images/header-bg.jpg");
@@ -94,6 +106,7 @@ body {
   background-size: cover;
   min-height: calc(100vh - 93px);
   font-family: "Montserrat", sans-serif;
+  margin-top: 93px;
 }
 
 .header__content-inner {
@@ -755,6 +768,10 @@ ul.footer__social {
   .pricing,
   .connection {
     padding: 75px 0;
+  }
+
+  .header__top-inner {
+  padding-bottom: 5px;
   }
 
   .about__inner {
